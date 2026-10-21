@@ -1,0 +1,16 @@
+{
+  "name": "campuslands-express-ratelimit-musica",
+  "version": "1.0.0",
+  "description": "API de música con express-rate-limit y middlewares (Campuslands)",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "NODE_ENV=test node --test test/test-api.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0"
+  }
+}
